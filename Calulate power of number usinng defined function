@@ -5,13 +5,11 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         
-        Parent p = new Parent();
-        subclass1 s1 = new subclass1();
-        subclass2 s2 = new subclass2();
-        System.out.println(s2.power(-6, 2));
+       
+        System.out.println(power(-6, 2));
         }
         
-        public double power(double x,double y)
+        public double power(double x,double y)//where x is base, y is power
     {
         double i,d=x,g=1;
         double o;
