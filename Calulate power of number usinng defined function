@@ -1,0 +1,44 @@
+public double power(double x,double y)
+    {
+        double i,d=x,g=1;
+        double o;
+        double m;
+       
+            if(y==0)
+            {
+            d = 1;
+            return d;
+            }
+            else if(y==1)
+            {
+                d = x;
+                return d;
+            }
+            else if(y>0)
+            {
+                 d = x;
+                 o = x;
+                for(i=1;i<y;i++)
+                
+                {
+                 d = d*o;
+                }
+                
+            
+                return d;
+            
+        }
+            else if(y<0)
+            {
+                 d = x;
+                 o = x; 
+                for(i=1;i<-(y);i++)
+                {
+                 
+                 d = d*o;
+                }
+                
+            }
+                return (1/d);
+            
+        }
